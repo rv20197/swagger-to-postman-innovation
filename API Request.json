@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "32f416a0-c45e-483b-ab6e-60f4f690d1ae",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "12634073"
+	},
+	"item": [
+		{
+			"name": "http://localhost:3000/generate-postman-collection",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "swaggerFile",
+							"type": "file",
+							"src": "/C:/Users/vatsa/Downloads/openapi.json"
+						},
+						{
+							"key": "outputDir",
+							"value": ".",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:3000/generate-postman-collection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"generate-postman-collection"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

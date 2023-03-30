@@ -1,0 +1,5 @@
+1. Run npm install
+2. To launch api request write npm start
+3. Provide swagger in yaml/json format
+4. Import API Request.json in postman
+5. Change the file and outputDir values in the postman request body
